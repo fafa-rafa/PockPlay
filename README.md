@@ -1,7 +1,7 @@
 # PockPlay
 a simple two button game console
 
-#instalation
+# INSTALATION
 1. go to releases page.
 2. download the binary file.
 3. open esp.huhn.me .
