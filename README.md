@@ -15,11 +15,6 @@ High scores are saved to flash and shown in the menu.
 | UP button | GPIO3 to GND |
 | DOWN button | GPIO4 to GND |
 | Passive buzzer (optional) | GPIO10 to GND |
-| IR LED (TV-B-Gone) | GPIO7, see below |
-
-**IR LED, 5 mm:** GPIO7 → 1 kΩ → NPN base (2N2222/S8050/BC337); emitter to GND; collector to LED cathode; LED anode → 47-68 Ω → 5V.
-
-**IR LED, 3 W:** GPIO7 → 100 Ω → N-MOSFET gate (AO3400/IRLML6344) with 10 kΩ gate-to-GND; source to GND; drain to LED cathode; LED anode → ~8 Ω 1 W resistor (5V) → 5V pin; 220-470 µF capacitor across 5V/GND.
 
 **Power:** 1S LiPo through a TP4056 protection module to the 5V pin via a switch. Never plug USB into the SuperMini while the battery is connected.
 
