@@ -23,9 +23,9 @@ High scores are saved to flash and shown in the menu.
 
 **Power:** 1S LiPo through a TP4056 protection module to the 5V pin via a switch. Never plug USB into the SuperMini while the battery is connected.
 
-## 1. INSTALATION METHODS
+## INSTALATION METHODS
 
-# esptool by spacehuhn
+# 1. esptool by spacehuhn
 1. go to releases page.
 2. download the binary file.
 3. open esp.huhn.me .
@@ -57,15 +57,3 @@ High scores are saved to flash and shown in the menu.
 | Flappy | flap | dive |
 | Snake | turn left | turn right |
 | Breakout | paddle up | paddle down |
-
-
-# INSTALATION
-1. go to releases page.
-2. download the binary file.
-3. open esp.huhn.me .
-4. connect the esp
-5. upload the binary
-6. flash
-7. wait
-8. reboot
-9. DONE!!!
